@@ -13,12 +13,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableCaching
 @EnableRedisHttpSession(maxInactiveIntervalInSeconds = -1)
 public class Api {
-
     public static void main(String[] args) {
         new SpringApplicationBuilder(Api.class).run(args);
     }
-
-
-
-
 }
